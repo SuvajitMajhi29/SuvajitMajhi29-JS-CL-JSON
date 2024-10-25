@@ -7,7 +7,7 @@ TODO: Use the JSON.stringify() method to translate the value in the `object` par
 @returns {string} - the JSON string representation of the 'object' param
 */
 function exercise1(object) {
-    return "";
+    return JSON.stringify(object);
 }
 
 // ════════════════ Exercise 2 ════════════════════ //
@@ -18,7 +18,7 @@ TODO: Use the JSON.parse() method to translate the value in the `jsonString` par
 @returns {Object} - an Object representation of the 'jsonString' param
 */
 function exercise2(jsonString) {
-    return "";
+    return JSON.parse(jsonString);
 
 }
 
